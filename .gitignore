@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Scraped data
+data/raw/*
+data/processed/*
+
+# Keep empty folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
